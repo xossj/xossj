@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de Vida - Alfredo Torres</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #f4f4f4;
+        }
+        .container {
+            display: flex;
+            width: 800px;
+            background-color: #fff;
+            margin: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .left {
+            background-color: #212529;
+            color: white;
+            padding: 20px;
+            width: 30%;
+            text-align: center;
+        }
+        .left img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+        }
+        .left .contact, .left .references, .left .website {
+            margin-top: 20px;
+            text-align: left;
+        }
+        .right {
+            padding: 20px;
+            width: 70%;
+        }
+        .right h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .right h2 {
+            font-size: 18px;
+            margin-top: 20px;
+        }
+        .right p {
+            line-height: 1.6;
+        }
+        .right .section {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <img src="sebastian.png" alt="Foto de sebastian">
+            <h2>SEBASTIAN ORTIZ</h2>
+            <p>bachillerato</p>
+
+            <div class="contact">
+                <h3>Contacto</h3>
+                <p><strong>Tel:</strong> (302) 255-3710</p>
+                <p><strong>Email:</strong> xossj558@gmail.com</p>
+                <p><strong>Identificación:</strong> 1096701777</p>
+                <p><strong>Dirección:</strong> calle 1e # 2-15 villa Lina Piedecuesta</p>
+            </div>
+
+            <div class="references">
+                <h3>Referencias</h3>
+                <p><strong>Francisco Mercado</strong><br>
+                Ensigna<br>
+                (316) 212-3456</p>
+                <p><strong>Pedro Fernández</strong><br>
+                Borcelle<br>
+                (316) 212-3456</p>
+            </div>
+
+            <div class="website">
+                <h3>Sitio Web</h3>
+                <p>www.unsitioestupendo.com.co</p>
+            </div>
+        </div>
+        <div class="right">
+            <div class="section">
+                <h2>Sobre Mí</h2>
+                <p>Soy un apasionado por la cultura y las artes, con una formación en bachillerato y experiencia laboral como mesero. Estoy interesado en incursionar en el campo de la programación cultural, donde pueda combinar mis habilidades de organización y atención al cliente con mi amor por la creatividad y la expresión artística. Estoy comprometido en desarrollar eventos y actividades que promuevan la diversidad cultural y el intercambio de ideas, contribuyendo así al enriquecimiento de la comunidad y al fomento de la inclusión social.</p>
+            </div>
+            
+            <div class="section">
+                <h2>Experiencia</h2>
+                <h3>2024 estudiante </h3>
+                <p>Soy una persona apasionada por el aprendizaje y el crecimiento personal. Mi formación en bachillerato me ha proporcionado una base sólida en diversas áreas, lo que me ha permitido desarrollar habilidades de investigación, análisis y resolución de problemas. Estoy comprometido/a con mi desarrollo profesional y estoy constantemente buscando oportunidades para expandir mis conocimientos y habilidades. Con una mentalidad proactiva y un enfoque orientado a resultados, estoy listo/a para enfrentar nuevos desafíos y crecer en mi carrera profesional.</p>
+
+            </div>
+            
+            <div class="section">
+                <h2>Educación</h2>
+                <p><strong>2023</strong> certificado de sistemas </p>
+                <p><strong>2024</strong> certificado en logica de programacion</p>
+                
+            </div>
+            
+            <div class="section">
+                <h2>Habilidades</h2>
+                <p>Liderazgo, Gestión del tiempo, Comunicación, Trabajo en equipo, Toma de decisiones, Pensamiento estratégico</p>
+            </div>
+            
+            <div class="section">
+                <h2>Idiomas</h2>
+                <p>Español, Inglés</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
